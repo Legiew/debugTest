@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  debugtest:
+    build: .
+    container_name: debugtest
+    ports:
+    - 9229:9229
